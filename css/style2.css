@@ -463,6 +463,12 @@ header nav .side-nav li.login-li a span {
   }
 }
 
+@media screen and (max-width: 332px) {
+  .filter .filter_row .sort li {
+    margin: 0 1px;
+  }
+}
+
 .filter .filter_row .sort li:hover,
 .filter .filter_row .sort li:active,
 .filter .filter_row .sort li:focus {

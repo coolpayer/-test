@@ -394,6 +394,9 @@ header {
 					float: none;
 					display: inline-flex;
 				}
+				@media screen and (max-width: 332px) {
+					margin: 0 1px;
+				}
 				&:hover,
 				&:active,
 				&:focus {
